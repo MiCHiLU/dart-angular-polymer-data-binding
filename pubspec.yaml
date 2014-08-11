@@ -8,4 +8,4 @@ dependencies:
   shadow_dom: any
 transformers:
 - polymer:
-    entry_points: web/angularpolymer.html
+    entry_points: web/index.html
