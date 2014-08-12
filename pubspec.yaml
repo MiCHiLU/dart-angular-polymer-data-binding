@@ -1,11 +1,13 @@
 name: angularpolymer
 description: A sample web application
 dependencies:
-  angular: any
+  angular: 0.12.0
   angular_node_bind: any
-  browser: any
-  polymer: any
-  shadow_dom: any
+  polymer: ">= 0.11.1-dev < 0.12.0"
 transformers:
 - polymer:
     entry_points: web/index.html
+dependency_overrides:
+  analyzer: ">=0.15.6 <0.16.0"
+  html5lib: ">=0.11.0 <0.12.0"
+  web_components: 0.4.0
