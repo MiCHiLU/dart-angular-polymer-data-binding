@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="angularpolymer.css">
     <link rel="import" href="my_element.html">
     <style>
+    .ng-show {
+      display: block !important;
+    }
+    [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+      display: none !important;
+    }
     section {
       border: 1px solid black;
       margin-bottom: 20px;
@@ -29,7 +35,7 @@
       
       <section>
         <p>Angular</p>
-        <p>
+        <p ng-cloak>
           <input type="text" ng-model="cool"> Angular binding: {{cool}}
         </p>
       </section>
