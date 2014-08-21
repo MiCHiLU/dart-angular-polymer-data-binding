@@ -11,3 +11,7 @@ dependency_overrides:
   analyzer: ">=0.15.6 <0.16.0"
   html5lib: ">=0.11.0 <0.12.0"
   web_components: ">=0.5.0 <0.6.0"
+  polymer:
+    git:
+      url: https://github.com/MiCHiLU/polymer.dart.git
+      ref: 164a558cca9def53e0bada37de058108d2b7acba

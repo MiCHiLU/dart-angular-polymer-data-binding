@@ -66,8 +66,11 @@ packages:
     source: hosted
     version: "0.0.9"
   polymer:
-    description: polymer
-    source: hosted
+    description:
+      ref: "164a558cca9def53e0bada37de058108d2b7acba"
+      resolved-ref: "164a558cca9def53e0bada37de058108d2b7acba"
+      url: "https://github.com/MiCHiLU/polymer.dart.git"
+    source: git
     version: "0.12.0"
   polymer_expressions:
     description: polymer_expressions
